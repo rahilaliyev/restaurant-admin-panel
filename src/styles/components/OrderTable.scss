@@ -1,0 +1,70 @@
+.orders-table {
+  margin-top: 30px;
+  table {
+    border-radius: 12px;
+    thead {
+      background-color: #ebebeb;
+      th {
+        padding: 10px;
+      }
+    }
+    tbody {
+      td {
+        padding: 10px;
+        text-align: center;
+        .dropdown {
+          position: relative;
+          span {
+            @include flexBox(center, center);
+          }
+          ul {
+            position: absolute;
+            z-index: 1;
+            top: 35px;
+            left: 30px;
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0px 4px 55px rgba(0, 0, 0, 0.07);
+            width: 130px;
+            li {
+              cursor: pointer;
+              &:hover {
+                background-color: $main;
+                color: white;
+              }
+              &.active {
+                background-color: rgba(0, 0, 0, 0.1);
+                color: white;
+              }
+              button:disabled {
+                background-color: white;
+                color: lightgray;
+              }
+              button {
+                padding: 8px;
+              }
+              &:not(:first-child) {
+                border-top: 1px solid grey;
+              }
+            }
+            .submit {
+              border: 1px solid $main;
+              padding: 12px 16px;
+              border-radius: 8px;
+              color: $main;
+              margin: 10px 0;
+            }
+          }
+        }
+      }
+    }
+    tbody {
+      tr {
+        &:nth-child(even) {
+          background-color: #ebebeb;
+        }
+      }
+    }
+  }
+}

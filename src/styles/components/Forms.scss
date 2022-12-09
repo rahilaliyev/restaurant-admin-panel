@@ -1,0 +1,21 @@
+form {
+  label {
+    margin-right: 10px;
+  }
+  input {
+    width: 200px;
+    height: 48px;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 12px;
+    margin-right: 10px;
+  }
+  button {
+    background-color: $main;
+    color: white;
+    text-align: center;
+    height: 48px;
+    border-radius: 12px;
+  }
+}

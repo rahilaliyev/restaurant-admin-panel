@@ -1,0 +1,15 @@
+.modal {
+  @include flexBox(center, center);
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1111;
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+}

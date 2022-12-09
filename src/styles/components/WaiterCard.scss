@@ -1,0 +1,73 @@
+.waiter-cards {
+  
+  .waiter {
+    @include flexBox(space-between, center);
+    background-color: lightgray;
+    padding: 16px;
+    border-radius: 8px;
+    .waiter-info {
+      @include flexBox(space-between, center);
+      .waiter-img {
+        @include flexBox(center, center);
+        width: 37px;
+        height: 37px;
+        margin-right: 6px;
+        background-color: burlywood;
+        border-radius: 50%;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
+    }
+    .actions {
+      width: 30px;
+      height: 30px;
+      position: relative;
+      // background-color: rgba(255, 255, 255, 0.6);
+      transition: 0.5s;
+      border-radius: 50%;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      &::after,
+      &::before,
+      span {
+        content: "";
+        position: absolute;
+        background-color: white;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+      }
+      &::after {
+        bottom: 3px;
+      }
+      &::before {
+        top: 3px;
+      }
+    }
+    .button-group {
+      position: absolute;
+      background-color: $main;
+      width: 120px;
+      top: 50px;
+      z-index: 1;
+      border-radius: 8px;
+      padding: 10px;
+      button {
+        color: white;
+        padding: 10px;
+        width: 100%;
+        transition: 0.5s;
+        &:hover {
+          background-color: white;
+          color: $main;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
+}

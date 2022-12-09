@@ -1,0 +1,162 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "table": "Masa 1",
+      "waiter": "Aliyeva Elnara",
+      "status": "Sonlanmayıb",
+      "payment": 19.5,
+      "time": "-",
+      "order": [
+        {
+          "id": 1,
+          "mealName": "Lahmacun",
+          "count": 4,
+          "price": 2,
+          "img": "/avatars/meal4.jpg"
+        },
+        {
+          "id": 2,
+          "mealName": "Paytaxt salatı",
+          "count": 5,
+          "price": 2,
+          "img": "/avatars/meal3.jpg"
+        },
+        {
+          "id": 3,
+          "mealName": "Mərci",
+          "count": 1,
+          "price": 1.5,
+          "img": "/avatars/meal5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "table": "Masa 3",
+      "waiter": "Bağırova Arzu",
+      "status": "Sonlanmayıb",
+      "payment": 11.5,
+      "time": "-",
+      "order": [
+        {
+          "id": 1,
+          "mealName": "Lavaşda ət dönər",
+          "count": 2,
+          "price": 3,
+          "img": "/avatars/meal2.jpg"
+        },
+        {
+          "id": 2,
+          "mealName": "Lahmacun",
+          "count": 2,
+          "price": 2,
+          "img": "/avatars/meal4.jpg"
+        },
+        {
+          "id": 3,
+          "mealName": "Mərci",
+          "count": 1,
+          "price": 1.5,
+          "img": "/avatars/meal5.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "table": "Masa 4",
+      "waiter": "Aliyeva Elnara",
+      "status": "Sonlanıb",
+      "payment": 4.5,
+      "time": "2022-12-08T22:43:11.640Z",
+      "order": [
+        {
+          "id": 1,
+          "mealName": "Mərci",
+          "count": 3,
+          "price": 1.5,
+          "img": "/avatars/meal5.jpg"
+        }
+      ]
+    }
+  ],
+  "waiters": [
+    {
+      "id": 1,
+      "avatar": "/avatars/avatar1.png",
+      "name": "Dadaşov Allahverdi"
+    },
+    {
+      "id": 2,
+      "avatar": "/avatars/avatar2.png",
+      "name": "Bağırova Arzu"
+    },
+    {
+      "id": 3,
+      "avatar": "/avatars/avatar3.png",
+      "name": "Qasımov Elməddin"
+    },
+    {
+      "id": 4,
+      "avatar": "/avatars/avatar4.png",
+      "name": "Aliyeva Elnara"
+    },
+    {
+      "id": 5,
+      "avatar": "/avatars/avatar5.png",
+      "name": "Heydərov Kamil"
+    },
+    {
+      "id": 6,
+      "avatar": "/avatars/avatar6.png",
+      "name": "Babayeva Elnarə"
+    },
+    {
+      "id": 7,
+      "avatar": "/avatars/avatar7.png",
+      "name": "Qocayev Eldar"
+    },
+    {
+      "id": 8,
+      "avatar": "/avatars/avatar8.png",
+      "name": "Adıgözəlova Lalə"
+    },
+    {
+      "id": 9,
+      "avatar": "/avatars/avatar7.png",
+      "name": "Qabilov Sadiq"
+    }
+  ],
+  "meals": [
+    {
+      "id": 1,
+      "name": "Çörəkdə toyuq dönər",
+      "price": 2,
+      "img": "/avatars/meal1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Lavaşda ət dönər",
+      "price": 3,
+      "img": "/avatars/meal2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Lahmacun",
+      "price": 2,
+      "img": "/avatars/meal4.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Mərci",
+      "price": 1.5,
+      "img": "/avatars/meal5.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Paytaxt salat",
+      "price": "2",
+      "img": "/avatars/meal3.jpg"
+    }
+  ]
+}

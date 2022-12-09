@@ -1,0 +1,85 @@
+@import "./abstracts/fonts.scss";
+@import "./abstracts/variables.scss";
+@import "./abstracts/mixins.scss";
+
+html,
+body,
+#root,
+.App {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: $Poppins;
+}
+
+.App {
+  @include flexBox(normal, normal);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+  font-family: $Poppins;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  padding: 40px;
+  padding-top: 100px;
+  margin-left: 20%;
+}
+
+.grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+select {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+::placeholder {
+  font-family: $Poppins;
+}
